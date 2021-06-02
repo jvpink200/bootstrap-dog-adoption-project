@@ -1,33 +1,44 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
   font-size: 1rem;
+  margin-bottom:80px;
+  background-color:aliceblue;
+}
+
+#homeCarousel {
+  margin-top:20px;
+}
+
+.footer {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li a {
+  color: #C0C0C0;
+  padding-left:30px;
+  padding-right:60px;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .buy-items {
   width: auto;
-  height: 260px;
-}
-
-.card {
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
-}
-
-.paragraph {
-  outline: 3px inset #13a3b8;
-  padding: 15px;
-  font-size: large;
-}
-
-.border {
-  border-width: 3px !important;
-}
-
-#quizBorder {
-  text-align: center;
-  border-width: 5px !important;
-  vertical-align: middle;
+  height: 345px;
 }
 
 /*
@@ -76,19 +87,6 @@ body {
   color: #007bff;
 }
 
-#questionsForm {
-  margin-left: 5%;
-}
-
-#randomDog {
-  opacity: 1;
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 1.5s;
-  color: #13a3b8;
-}
-
 @keyframes fadeInOpacity {
   0% {
     opacity: 0;
@@ -98,10 +96,7 @@ body {
   }
 }
 
-#dogImage {
-  width: 50%;
-  height: auto;
-  padding: 1px;
-  border: 3px outset #13abb8;
-  background-color: #13a3b8;
+
+main {
+  margin-top:80px;
 }
