@@ -5,12 +5,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./public/bootstrap/css/bootstrap.min.css" />
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./public/css/style.css" />
     <title>Aero Swift Adoption</title>
   </head>
   <body>
@@ -32,8 +32,8 @@
             </li>
           </ul>
           <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-light text-info my-2 my-sm-0" type="submit">Find a Shelter</button>
+            <input class="form-control mr-sm-2" type="text" placeholder="Coming Soon..." aria-label="Search">
+            <button class="btn btn-light text-info my-2 my-sm-0" type="submit">Find a Shelter today</button>
           </form>
         </div>
       </nav>
@@ -81,26 +81,26 @@
       <!--Dog Item Images-->
       <div class="row">
         <div class="col-md-6">
-          <img class="buy-items d-block w-100 p-2" src="images/dog_toys.jpg" alt="dog toys" />
+          <img class="buy-items d-block w-100 p-2" src="./public/images/dog_toys.jpg" alt="dog toys" />
         </div>
         <div class="col-md-6">
-          <img class="buy-items d-block w-100 p-2" src="images/dog_leash_and_harness.jpg" alt="dog leash and harness" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <img class="buy-items d-block w-100 p-2" src="images/dog_bed.jpg" alt="dog bed" />
-        </div>
-        <div class="col-md-6">
-          <img class="buy-items d-block w-100 p-2" src="images/dog_bowls.jpg" alt="dog bowls" />
+          <img class="buy-items d-block w-100 p-2" src="./public/images/dog_leash_and_harness.jpg" alt="dog leash and harness" />
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
-          <img class="buy-items d-block w-100 p-2" src="images/dog_collar.jpg" alt="dog collar" />
+          <img class="buy-items d-block w-100 p-2" src="./public/images/dog_bed.jpg" alt="dog bed" />
         </div>
         <div class="col-md-6">
-          <img class="buy-items d-block w-100 p-2" src="images/dog_house.jpg" alt="dog house" />
+          <img class="buy-items d-block w-100 p-2" src="./public/images/dog_bowls.jpg" alt="dog bowls" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="buy-items d-block w-100 p-2" src="./public/images/dog_collar.jpg" alt="dog collar" />
+        </div>
+        <div class="col-md-6">
+          <img class="buy-items d-block w-100 p-2" src="./public/images/dog_house.jpg" alt="dog house" />
         </div>
       </div>
     </main>
@@ -108,15 +108,13 @@
     <footer class="footer bg-info">
       <div class="text-center">
         <ul>
-            <li><a href="aboutus.html">About</a></li>
-            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="./public/aboutus.html">About</a></li>
+            <li><a href="#">Contact Us</a></li>
         </ul>
       </div>
     </footer>
-
-   <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-   <script src="js/selectShelter.js"></script>
+   <script src="./public/jquery/jquery.slim.min.js"></script>
+   <script src="./public/bootstrap/js/bootstrap.min.js"></script>
+   <script src="./public/js/selectShelter.js"></script>
   </body>
 </html>
